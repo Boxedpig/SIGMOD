@@ -45,5 +45,5 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/your-username/my_awesome_project" # 稍后创建好仓库后替换
-"Bug Tracker" = "https://github.com/your-username/my_awesome_project/issues" # 稍后替换
+Homepage = "https://github.com/Boxedpig/SIGMOD"
+"Bug Tracker" = "https://github.com/Boxedpig/SIGMOD/issues"
