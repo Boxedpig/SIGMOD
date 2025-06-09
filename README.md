@@ -8,7 +8,7 @@ To construct a niche defined by spatially variable ligand–receptor interaction
 
 To perform niche construction using proximity-based cell enrichment, SIGMOD defines a cell’s niche based on the number and types of neighboring cells within a specified distance. Specifically, for imaging-based data with single-cell resolution (e.g., Xenium), SIGMOD quantifies the interaction strength of specific ligand–receptor pairs within a defined spatial radius and integrates this information into the niche model to guide gene module discovery.
 
-![SIGMOD Workflow](/Users/liuchang/Library/CloudStorage/OneDrive-个人/phd2024/project/myProject/4.0_ml/5.0_NGDecon/0322_post/Figure/SIGMOD_V3.svg)
+![SIGMOD Workflow](./images/SIGMOD_V3.svg)
 
 ## Installation
 
