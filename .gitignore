@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc]
+.env
+.venv
+venv/
+dist/
+build/
+*.egg-info/
+
+# Conda
+.conda/
+env/
+
+# IDEs
+.vscode/
+.idea/
