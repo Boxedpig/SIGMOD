@@ -24,8 +24,7 @@ def get_LR_from_CellChaDB(
     complex_df: pd.DataFrame,
     gene_names_in_data: pd.Index
 ):
-
- """
+    """
     Filters and processes a ligand-receptor list against available gene names.
     
     Handles simple L-R pairs and complexes from CellChatDB data.
@@ -38,7 +37,6 @@ def get_LR_from_CellChaDB(
     Returns:
         A tuple containing two arrays: processed ligands and processed receptors.
     """
-    
     lr_df = lr_df.sort_values('annotation')
     ligand = lr_df.ligand.values
     receptor = lr_df.receptor.values
@@ -157,7 +155,6 @@ def create_subspaces_based_on_anno(
     obs: pd.DataFrame,
     n:int, 
     border: bool = False):
-
     """
     Creates spatial subspaces based on annotated regions and their borders.
 
@@ -271,7 +268,6 @@ def create_subspaces(
 def calculate_LR_mean(
     All_L_R: pd.DataFrame, 
     distMat: pd.DataFrame):
-
     """
     Calculates the interaction strength and its z-score for a ligand-receptor pair.
 
@@ -311,7 +307,6 @@ def calculate_graph_density(
     All_L_R: pd.DataFrame,
     distMat: pd.DataFrame,
     subpos: pd.DataFrame,):
-
     """
     Calculates the interaction density within a spatial subspace.
 
@@ -346,7 +341,6 @@ def run_svlr(
     distMat: pd.DataFrame,
     subspaces: Dict[str, pd.DataFrame],
     stdata: sc.AnnData):
-
     """
     Runs the main SVLR analysis pipeline for all ligand-receptor pairs.
 
