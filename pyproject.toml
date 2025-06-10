@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "SIGMOD"
-version = "0.0.1"
+version = "0.0.2"
 authors = [
   { name="liuchang", email="liu-chan20@mails.tsinghua.edu.cn" },
 ]
@@ -34,7 +34,6 @@ dependencies = [
     "tqdm ~= 4.67",
     "natsort ~= 8.4",
     "pynndescent ~= 0.5",
-    "pandas ~= 2.2.3",
     "pyro-api ~= 0.1.2",
     "pyro-ppl ~= 1.9.1",
     "umap-learn ~= 0.5",
