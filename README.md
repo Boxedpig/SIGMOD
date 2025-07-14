@@ -15,3 +15,8 @@ To perform niche construction using proximity-based cell enrichment, SIGMOD defi
 ```bash
 pip install SIGMOD
 ```
+
+## Tutorial
+- [**Spatail variable ligand receptor interaction analysis**](./tutorial/PDAC/SVLR.ipynb)
+- [**Niche guided cell module discovery**](./tutorial/PDAC/runPDAC.py)
+- [**Downstream analysis(spatial module-module interactions)**](./tutorial/PDAC/ST_analysis.ipynb)
