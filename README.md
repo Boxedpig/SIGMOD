@@ -20,3 +20,4 @@ pip install SIGMOD
 - [**Spatail variable ligand receptor interaction analysis**](./tutorial/PDAC/SVLR.ipynb)
 - [**Niche guided cell module discovery**](./tutorial/PDAC/runPDAC.py)
 - [**Downstream analysis(spatial module-module interactions)**](./tutorial/PDAC/ST_analysis.ipynb)
+- [**Others for reproducing resutls**](./tutorial/)
